@@ -567,6 +567,20 @@ body:not(.home-v3) .contact-cards p a::before {
   font-size: 11px !important;
 }
 
+body:not(.home-v3) .contact-hours-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+body:not(.home-v3) .contact-hours-actions .btn {
+  min-height: 44px !important;
+  padding: 10px 16px !important;
+  font-size: 13px;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   body:not(.home-v3) .contact-cards > article {
     padding: 17px 18px !important;
@@ -579,6 +593,10 @@ body:not(.home-v3) .contact-cards p a::before {
 
   body:not(.home-v3) .contact-cards p {
     font-size: 13px !important;
+  }
+
+  body:not(.home-v3) .contact-hours-actions .btn {
+    width: 100%;
   }
 }
 
